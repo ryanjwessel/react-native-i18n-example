@@ -2,17 +2,11 @@ import i18n from 'i18next';
 import {initReactI18next} from 'react-i18next';
 import {findBestAvailableLanguage} from 'react-native-localize';
 import {format as dateFormat} from 'date-fns';
-import en from './locales/en/translation.json';
-import fr from './locales/fr/translation.json';
-import de from './locales/de/translation.json';
+import {supportedLngs, Language, translations} from './locales';
 
-const resources = {
-  en: {translation: en},
-  fr: {translation: fr},
-  de: {translation: de},
-};
-
-const supportedLngs = ['en', 'fr', 'de'];
+const resources = Object.fromEntries(
+  supportedLngs.map((lng: Language) => [lng, {translation: translations[lng]}]),
+);
 
 i18n
   .use(initReactI18next)
