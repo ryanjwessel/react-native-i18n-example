@@ -13,6 +13,7 @@ export const Welcome = () => {
   const {t} = useTranslation();
   return (
     <View style={styles.container}>
+      <Text>{t('today', {date: new Date()})}</Text>
       <Text>{t('title')}</Text>
       <Text>{t('description')}</Text>
       <Text>{t('supported_languages')}</Text>

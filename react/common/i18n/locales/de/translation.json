@@ -1,5 +1,6 @@
 {
-  "title": "Welcome to this app",
-  "description": "To test localization, change your device's default language settings, then come back to this app.",
-  "supported_languages": "So far, we support English, French, and German."
+  "title": "Willkommen bei dieser App",
+  "description": "Um die Lokalisierung zu testen, ändern Sie die Standardspracheinstellungen Ihres Geräts und kehren Sie dann zu dieser App zurück.",
+  "supported_languages": "Bisher unterstützen wir Englisch, Französisch und Deutsch.",
+  "today": "Heute ist: {{ date, MM/dd/yyyy }}"
 }

@@ -1,5 +1,8 @@
 {
   "title": "Welcome to this app",
   "description": "To test localization, change your device's default language settings, then come back to this app.",
-  "supported_languages": "So far, we support English, French, and German."
+  "supported_languages": "So far, we support English, French, and German.",
+  "today": "Today is: {{ date, MM/dd/yyyy }}",
+  "alert_count": "{{count}} alert",
+  "alert_count_plural": "{{count}} alerts"
 }
