@@ -2,5 +2,5 @@
   "title": "Willkommen bei dieser App",
   "description": "Um die Lokalisierung zu testen, ändern Sie die Standardspracheinstellungen Ihres Geräts und kehren Sie dann zu dieser App zurück.",
   "supported_languages": "Bisher unterstützen wir Englisch, Französisch und Deutsch.",
-  "today": "Heute ist: {{ date, MM/dd/yyyy }}"
+  "today": "Heute ist: {{- date, MM/dd/yyyy }}"
 }

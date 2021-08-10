@@ -2,5 +2,5 @@
   "title": "Bienvenue dans cette application",
   "description": "Pour tester la localisation, modifiez les paramètres de langue par défaut de votre appareil, puis revenez à cette application.",
   "supported_languages": "Jusqu'à présent, nous prenons en charge l'anglais, le français et l'allemand.",
-  "today": "Aujourd'hui c'est: {{ date, MM/dd/yyyy }}"
+  "today": "Aujourd'hui c'est: {{- date, MM/dd/yyyy }}"
 }
